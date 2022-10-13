@@ -19,6 +19,7 @@ const saveToken = async (token) => {
 
 const initCLI = () => {
 	const args = getArgs(process.argv);
+	
 	if (args.h) {
 		printHelp();
 	}
