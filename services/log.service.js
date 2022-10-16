@@ -47,9 +47,9 @@ const printWeather = (res, icon) => {
 		Давление: ${Math.round(((res.main.pressure * 760)/1013.25))} mm.рт.ст
 		Скорость ветра: ${res.wind.speed}
 		Направление ветра: ${degToCompass(res.wind.deg)}
-
 		Восход: ${unixToTime(res.sys.sunrise)}
 		Закат:  ${unixToTime(res.sys.sunset)}
+
 		`
 	);
 };
